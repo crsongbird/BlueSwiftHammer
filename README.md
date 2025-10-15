@@ -8,7 +8,7 @@ Run it yourself, keep your blocklists in sync, no hosted service required.
 To protect yourself from people who abuse blocklists to harass others by blocking specific list creators and their subscribers & personally reduce your attack surface because you can gather a lot about a person from the blocklists they subscribe to.
 
 ### What it’s supposed to do
-- It's a command-line tool to manage a config file, and a scheduled task that uses the config file to manage reflective/responsive blocklists.
+- It's a command-line tool to manage a config file, and a scheduled task/automated tool that uses the config file to manage reflective/responsive blocklists.
 - You give it the URL of one or more blocklists, and some preferences ("nuclear" or "normal" block option, for example)
 - It looks at each account who has subscribed to each list, and adds them to a corresponding list (allowing you to block the list manager/creator and all subscribers).
   - Nuclear: does not remove  users after they've unsubscribed from the target list.
@@ -20,8 +20,7 @@ To protect yourself from people who abuse blocklists to harass others by blockin
 
 # That’s the goal: no dashboards, no hosted service. 
   Not magic,  *a r t i f i c i n g!*
-  A script for you to run on your own machine or server.
-  A config file manager to help keep things from getting too stupid.
+  A script for you to run on your own machine or server and config file manager to help keep things from getting too stupid.
 
 ### Current status
 This is just documentation and a starting point. First milestone is a simple Python script with a config file; Docker support may come later.
