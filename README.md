@@ -1,6 +1,6 @@
 <img width="860" height="293" alt="image" src="https://github.com/user-attachments/assets/d5e055a2-2534-4a7a-8d33-8e02fb10c3e6" />
 
-# BlueSwiftHammer
+# Bluesky Laser Scalpel
 A (future) self‑hostable command-line tool to automatically block Bluesky users who subscribe to specified lists.  
 Run it yourself, keep your blocklists in sync, no hosted service required.
 
